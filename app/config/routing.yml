@@ -1,0 +1,4 @@
+smodeal_ad:
+    resource: "@SmodealAdBundle/Resources/config/routing.yml"
+    prefix:   /
+
