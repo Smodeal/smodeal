@@ -1,0 +1,23 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Annonces{% endblock %}
+
+{% block stylesheets %}
+      <link rel="stylesheet" type="text/css" href="{{ asset("img/logo.png") }}" />
+{% endblock %}
+
+{% block body %}
+  
+  <header>
+    {% block header %} {% include "SmodealAdBundle::header.html.twig" %} {% endblock %}
+  </header>  
+
+  <section id="content" class="container">
+    {% block content %}{% endblock %}
+  </section>
+
+  <footer class="bs-footer" role="contentinfo">
+      {% block footer %} {% include "SmodealAdBundle::footer.html.twig" %} {% endblock %}
+  </footer>
+  
+{% endblock %}
