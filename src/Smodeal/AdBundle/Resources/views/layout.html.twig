@@ -2,8 +2,9 @@
 
 {% block title %}{{ parent() }} - Annonces{% endblock %}
 
-{% block stylesheets %}
-      <link rel="stylesheet" type="text/css" href="{{ asset("img/logo.png") }}" />
+{% block stylesheet %}
+  {{ parent() }}
+  <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
 {% endblock %}
 
 {% block body %}
