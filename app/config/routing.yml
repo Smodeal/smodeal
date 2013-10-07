@@ -1,3 +1,7 @@
+smodeal_admin:
+    resource: "@SmodealAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin/
+
 smodeal_ad:
     resource: "@SmodealAdBundle/Resources/config/routing.yml"
     prefix:   /

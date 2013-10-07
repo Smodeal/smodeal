@@ -1,6 +1,6 @@
 <?php
 
-namespace Smodeal\AdBundle\Controller;
+namespace Smodeal\Bundle\AdBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 

@@ -5,13 +5,12 @@
 {% block stylesheet %}
   {{ parent() }}
   <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+  <link rel="stylesheet" href="{{ asset('css/carousel.css') }}">
 {% endblock %}
 
 {% block body %}
   
-  <header>
-    {% block header %} {% include "SmodealAdBundle::header.html.twig" %} {% endblock %}
-  </header>  
+  {% block header %} {% include "SmodealAdBundle::header.html.twig" %} {% endblock %}
 
   <section id="content" class="container">
     {% block content %}{% endblock %}

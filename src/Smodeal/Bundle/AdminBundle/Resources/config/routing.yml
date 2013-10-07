@@ -1,0 +1,19 @@
+smodeal_admin_homepage:
+    pattern:  /
+    defaults: { _controller: SmodealAdminBundle:Admin:index }
+
+smodeal_admin_category:
+    pattern:  /
+    defaults: { _controller: SmodealAdminBundle:Category:index }
+
+smodeal_admin_category_add:
+    pattern:  /
+    defaults: { _controller: SmodealAdminBundle:Category:add }
+
+smodeal_admin_subcategory:
+    pattern:  /
+    defaults: { _controller: SmodealAdminBundle:Category:index }
+
+smodeal_admin_subcategory_add:
+    pattern:  /
+    defaults: { _controller: SmodealAdminBundle:Category:add }

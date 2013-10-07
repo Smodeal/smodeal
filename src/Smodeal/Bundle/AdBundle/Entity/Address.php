@@ -1,6 +1,6 @@
 <?php
 
-namespace Smodeal\AdBundle\Entity;
+namespace Smodeal\Bundle\AdBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

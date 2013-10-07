@@ -1,0 +1,7 @@
+parameters:
+#    smodeal_admin.example.class: Smodeal\Bundle\AdminBundle\Example
+
+services:
+#    smodeal_admin.example:
+#        class: %smodeal_admin.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,22 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Administration{% endblock %}
+
+{% block stylesheet %}
+  {{ parent() }}
+  <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+{% endblock %}
+
+{% block body %}
+  
+  {% block header %} {% include "SmodealAdminBundle::header.html.twig" %} {% endblock %}
+
+  <section id="content" class="container">
+    {% block content %}{% endblock %}
+  </section>
+
+  <footer class="bs-footer" role="contentinfo">
+      {% block footer %} {% include "SmodealAdBundle::footer.html.twig" %} {% endblock %}
+  </footer>
+  
+{% endblock %}
