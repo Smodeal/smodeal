@@ -1,0 +1,16 @@
+{% extends "SmodealAdBundle::layout.html.twig" %}
+
+{% block script %}
+  {{ parent() }}
+{% endblock %}
+  
+{% block stylesheet %}
+  {{ parent() }}
+{% endblock %}
+
+{% block content %}
+  <form role="form" method="post">
+    <button type="submit">Publier</button>
+  </form>
+{% endblock %}
+

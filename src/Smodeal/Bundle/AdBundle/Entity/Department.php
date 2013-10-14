@@ -5,12 +5,12 @@ namespace Smodeal\AdBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Town
+ * Department
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Smodeal\AdBundle\Entity\TownRepository")
+ * @ORM\Entity(repositoryClass="Smodeal\AdBundle\Entity\DepartmentRepository")
  */
-class Town {
+class Department {
 
   /**
    * @var integer
@@ -69,7 +69,7 @@ class Town {
    * Set name
    *
    * @param string $name
-   * @return Town
+   * @return Department
    */
   public function setName($name) {
     $this->name = $name;
@@ -90,7 +90,7 @@ class Town {
    * Set record
    *
    * @param \DateTime $record
-   * @return Town
+   * @return Department
    */
   public function setRecord($record) {
     $this->record = $record;
@@ -111,7 +111,7 @@ class Town {
    * Set status
    *
    * @param boolean $status
-   * @return Town
+   * @return Department
    */
   public function setStatus($status) {
     $this->status = $status;

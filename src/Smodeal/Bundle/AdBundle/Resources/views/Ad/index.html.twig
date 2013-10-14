@@ -1,2 +1,25 @@
 {% extends "SmodealAdBundle::layout.html.twig" %}
 
+{% block script %}
+  {{ parent() }}
+  <script type="text/javascript" src="{{ asset('js/raphael-min.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/map-france.js') }}"></script>
+{% endblock %}
+  
+{% block stylesheet %}
+  {{ parent() }}
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/map-france.css') }}" />
+{% endblock %}
+
+{% block content %}
+  <form role="form">
+    <div class="input-group">
+      <input type="text" class="span12 form-control" placeholder="Recherche... " />
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-search"></span>
+      </span>
+    </div>
+  </form>
+  <div id="map-france"></div>
+{% endblock %}
+

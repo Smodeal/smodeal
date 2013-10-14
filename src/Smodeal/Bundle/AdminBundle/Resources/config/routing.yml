@@ -3,17 +3,17 @@ smodeal_admin_homepage:
     defaults: { _controller: SmodealAdminBundle:Admin:index }
 
 smodeal_admin_category:
-    pattern:  /
+    pattern:  /categorie
     defaults: { _controller: SmodealAdminBundle:Category:index }
 
 smodeal_admin_category_add:
-    pattern:  /
+    pattern:  //categorie/ajouter
     defaults: { _controller: SmodealAdminBundle:Category:add }
 
 smodeal_admin_subcategory:
-    pattern:  /
+    pattern:  /sous-categorie
     defaults: { _controller: SmodealAdminBundle:Category:index }
 
 smodeal_admin_subcategory_add:
-    pattern:  /
+    pattern:  /sous-categorie/ajouter
     defaults: { _controller: SmodealAdminBundle:Category:add }
